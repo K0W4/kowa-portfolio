@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-action: #ff6b35;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  background-color: #030303;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+::selection {
+  background-color: rgba(255, 107, 53, 0.3);
+  color: white;
+}
