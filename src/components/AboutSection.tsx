@@ -23,7 +23,7 @@ export function AboutSection() {
         <div className="absolute inset-0 bg-black/20"></div>
       </div>
 
-      <div className="relative z-10 max-w-4xl mx-auto px-8 md:px-12 py-24 flex flex-col items-start text-left w-full">
+      <div className="relative z-10 max-w-4xl mx-auto px-8 md:px-12 py-12 md:py-24 flex flex-col items-start text-left w-full">
         
         <motion.div 
           initial={{ opacity: 0, y: 30 }}

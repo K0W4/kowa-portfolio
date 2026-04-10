@@ -195,7 +195,7 @@ export function SkillTreeSection() {
   ];
 
   return (
-    <section id="skill-tree" className="relative w-full min-h-screen py-32 flex items-center justify-center z-20 overflow-hidden bg-black/70">
+    <section id="skill-tree" className="relative w-full min-h-screen py-16 md:py-32 flex items-center justify-center z-20 overflow-hidden bg-black/70">
       
       <div className="absolute inset-0 z-0 opacity-20 pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle at center, rgba(255,255,255,0.4) 1px, transparent 1px)', backgroundSize: '60px 60px' }}></div>
 

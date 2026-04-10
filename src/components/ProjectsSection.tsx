@@ -5,7 +5,7 @@ export function ProjectsSection() {
   const { t } = useApp();
 
   return (
-    <section id="projects" className="relative w-full min-h-screen py-32 z-20 bg-black/70">
+    <section id="projects" className="relative w-full min-h-screen py-16 md:py-32 z-20 bg-black/70">
       <div className="absolute inset-0 z-0 opacity-10 pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle at center, rgba(255,255,255,0.4) 1px, transparent 1px)', backgroundSize: '60px 60px' }}></div>
 
       <div className="relative z-10 max-w-400 mx-auto px-8 md:px-12 flex flex-col">

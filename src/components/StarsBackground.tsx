@@ -3,7 +3,7 @@ import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { Points, PointMaterial } from '@react-three/drei';
 import * as THREE from 'three';
 
-const count = 12000;
+const count = 4000;
 
 const initialStarsPositions = (() => {
   const pos = new Float32Array(count * 3);
@@ -65,7 +65,7 @@ function Stars() {
 export function StarsBackground() {
   return (
     <div className="fixed inset-0 z-0">
-      <Canvas eventSource={document.body}>
+      <Canvas eventSource={document.body} dpr={[1, 1.5]}>
         <Stars />
       </Canvas>
     </div>
