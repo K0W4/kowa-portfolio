@@ -17,23 +17,25 @@ const mapLayouts: Record<string, { nodes: NodeLayout[], links: LinkLayout[] }> =
   games: {
     nodes: [
       { x: 20, y: 20 }, { x: 20, y: 70 }, { x: 80, y: 20 },
-      { x: 85, y: 50 }, { x: 45, y: 85 }, { x: 80, y: 80 }
+      { x: 85, y: 50 }, { x: 45, y: 85 }, { x: 80, y: 80 },
+      { x: 50, y: 20 }
     ],
     links: [
       { from: -1, to: 0 }, { from: 0, to: 1 }, { from: -1, to: 2 },
-      { from: -1, to: 3 }, { from: -1, to: 4 }, { from: -1, to: 5 }
+      { from: -1, to: 3 }, { from: -1, to: 4 }, { from: -1, to: 5 },
+      { from: 0, to: 6 }
     ]
   },
   ios: {
     nodes: [
       { x: 15, y: 20 }, { x: 15, y: 55 }, { x: 35, y: 15 },
       { x: 65, y: 15 }, { x: 85, y: 35 }, { x: 85, y: 80 },
-      { x: 65, y: 85 }, { x: 15, y: 85 }, { x: 40, y: 85 }, { x: 85, y: 55 }
+      { x: 65, y: 85 }, { x: 15, y: 85 }, { x: 40, y: 85 }
     ],
     links: [
       { from: -1, to: 0 }, { from: 0, to: 1 }, { from: 0, to: 2 },
       { from: -1, to: 3 }, { from: 3, to: 4 }, { from: -1, to: 5 },
-      { from: -1, to: 6 }, { from: -1, to: 7 }, { from: 7, to: 8 }, { from: -1, to: 9 }
+      { from: -1, to: 6 }, { from: -1, to: 7 }, { from: 7, to: 8 }
     ]
   },
   web: {

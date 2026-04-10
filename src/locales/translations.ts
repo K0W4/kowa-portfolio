@@ -28,12 +28,12 @@ export const translations = {
         games: {
           name: "Desenvolvimento de Jogos",
           desc: "",
-          skills: ["Storytelling", "Game Design", "Unity (C#)", "Godot", "GameMaker", "Unreal (C++)"]
+          skills: ["Storytelling", "Game Design", "Unity (C#)", "Godot", "GameMaker", "Unreal (C++)", "Figma"]
         },
         ios: {
-          name: "Ecossistema Apple e Design",
+          name: "Ecossistema Apple",
           desc: "",
-          skills: ["Swift", "SwiftUI", "UIKit", "ARKit", "RealityKit", "App Store", "CoreML", "SpriteKit", "GameKit", "Figma"]
+          skills: ["Swift", "SwiftUI", "UIKit", "ARKit", "RealityKit", "App Store", "CoreML", "SpriteKit", "GameKit"]
         },
         web: {
           name: "Desenvolvimento Web",
@@ -121,12 +121,12 @@ export const translations = {
         games: {
           name: "Game Development",
           desc: "",
-          skills: ["Storytelling", "Game Design", "Unity (C#)", "Godot", "GameMaker", "Unreal (C++)"]
+          skills: ["Storytelling", "Game Design", "Unity (C#)", "Godot", "GameMaker", "Unreal (C++)", "Figma"]
         },
         ios: {
-          name: "Apple Ecosystem & Design",
+          name: "Apple Ecosystem",
           desc: "",
-          skills: ["Swift", "SwiftUI", "UIKit", "ARKit", "RealityKit", "App Store", "CoreML", "SpriteKit", "GameKit", "Figma"]
+          skills: ["Swift", "SwiftUI", "UIKit", "ARKit", "RealityKit", "App Store", "CoreML", "SpriteKit", "GameKit"]
         },
         web: {
           name: "Web Development",
